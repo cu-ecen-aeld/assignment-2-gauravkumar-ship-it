@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest
+# Install script for directory: /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/build/assignment-autotest/install_local_manifest.txt"
+  file(WRITE "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/build/assignment-autotest/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

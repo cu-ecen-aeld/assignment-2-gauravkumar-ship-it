@@ -1,4 +1,4 @@
-# Install script for directory: /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src
+# Install script for directory: /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,19 +44,19 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src/libunity.a")
+   "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src/libunity.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/build/assignment-autotest/Unity/src/libunity.a")
+  file(INSTALL DESTINATION "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/build/assignment-autotest/Unity/src/libunity.a")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/build/assignment-autotest/Unity/src/install_local_manifest.txt"
+  file(WRITE "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/build/assignment-autotest/Unity/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

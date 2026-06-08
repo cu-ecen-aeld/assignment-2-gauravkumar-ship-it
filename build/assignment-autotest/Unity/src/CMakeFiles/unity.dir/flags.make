@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src
+C_INCLUDES = -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src
 
 C_FLAGS = 
 

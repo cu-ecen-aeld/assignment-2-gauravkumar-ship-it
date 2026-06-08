@@ -1,8 +1,8 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o: \
- /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/test/assignment1/Test_hello_Runner.c \
+ /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/test/assignment1/Test_hello_Runner.c \
  /usr/include/stdc-predef.h \
- /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src/unity.h \
- /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src/unity_internals.h \
+ /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src/unity.h \
+ /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src/unity_internals.h \
  /usr/include/setjmp.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

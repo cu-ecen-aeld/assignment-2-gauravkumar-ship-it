@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaurav-kumar/Documents/Projects/Home_Assignment_Git_LSP/assignment-1-gauravkumar-ship-it
+CMAKE_SOURCE_DIR = /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-1-gauravkumar-ship-it
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaurav-kumar/Documents/Projects/Home_Assignment_Git_LSP/assignment-1-gauravkumar-ship-it
+CMAKE_BINARY_DIR = /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-1-gauravkumar-ship-it
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaurav-kumar/Documents/Projects/Home_Assignment_Git_LSP/assignment-1-gauravkumar-ship-it/CMakeFiles /home/gaurav-kumar/Documents/Projects/Home_Assignment_Git_LSP/assignment-1-gauravkumar-ship-it//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-1-gauravkumar-ship-it/CMakeFiles /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-1-gauravkumar-ship-it//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaurav-kumar/Documents/Projects/Home_Assignment_Git_LSP/assignment-1-gauravkumar-ship-it/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-1-gauravkumar-ship-it/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

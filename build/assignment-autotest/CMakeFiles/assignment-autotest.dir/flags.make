@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/. -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/..
+C_INCLUDES = -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/. -I/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/..
 
 C_FLAGS =  -Wall -Werror -g
 

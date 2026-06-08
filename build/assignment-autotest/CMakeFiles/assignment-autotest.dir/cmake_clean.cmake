@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/test/assignment1/Test_hello_Runner.c"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/test/unity_runner.c"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/test/assignment1/Test_hello_Runner.c"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/test/unity_runner.c"
   "CMakeFiles/assignment-autotest.dir/link.d"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/student-test/assignment1/Test_validate_username_Runner.c"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/student-test/assignment1/Test_validate_username_Runner.c"
   "CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o"
   "CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o.d"
   "CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o"

@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/CMakeLists.txt"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/CMakeLists.txt"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/CMakeLists.txt"
-  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign1/assignment-autotest/Unity/src/CMakeLists.txt"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/CMakeLists.txt"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/CMakeLists.txt"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/CMakeLists.txt"
+  "/home/gaurav-kumar/Documents/Projects/Git_Submission_Assign2/assignment-autotest/Unity/src/CMakeLists.txt"
   "CMakeFiles/4.2.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
