@@ -5,30 +5,13 @@ on:
   pull_request:
 
 jobs:
-  test:
-    runs-on: self-hosted
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Verify runner
-        run: |
-          echo "Running on self-hosted runner"
-          whoami
-          uname -a
-
-      - name: Add cross compiler to PATH
-        run: |
-          export PATH=$PATH:/home/gaurav-kumar/softwares/crosscompiler/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin
-          which aarch64-none-linux-gnu-gcc
-
-      - name: Native Build
-        run: |
-          make clean
-          make build
-
-      - name: Cross Build
-        run: |
-          export PATH=$PATH:/home/gaurav-kumar/softwares/crosscompiler/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin
-          make clean
-          make build CROSS_COMPILE=aarch64-none-linux-gnu-
+    unit-test:
+        runs-on: self-hosted
+        steps:
+          - name: Run unit test
+            run: ./unit-test.sh
+    full-test:
+        runs-on: self-hosted
+        steps:
+          - name: Run full test
+            run: ./full-test.sh
